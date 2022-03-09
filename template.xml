@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE JimCars [
+<!ELEMENT JimCars (CarModel, Brand, Description, Cost, Make, Engine, Official_0to100KM_time, MaximumPower, SafetyRating, Extras+, CouponCode?, Reviews*, Picture+, URL)>
+<!ELEMENT CarModel (#PCDATA)>
+<!ELEMENT Brand (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT Cost (#PCDATA)>
+<!ELEMENT Make (#PCDATA)>
+<!ELEMENT Engine (#PCDATA)>
+<!ELEMENT Official_0to100KM_time (#PCDATA)>
+<!ELEMENT MaximumPower (#PCDATA)>
+<!ELEMENT SafetyRating (#PCDATA)>
+<!ELEMENT Extras (#PCDATA)>
+<!ELEMENT CouponCode (#PCDATA)>
+<!ELEMENT Reviews (#PCDATA)>
+<!ELEMENT Picture (#PCDATA)>
+<!ELEMENT URL (#PCDATA)>
+<!ATTLIST Cost currencyType CDATA "$">
+<!ATTLIST Official_0to100KM_time time CDATA "second">
+<!ATTLIST MaximumPower unit CDATA "kW">
+<!ENTITY stars "five">
+<!ENTITY Additional_Cost "2000$ Insurance ">
+]>
+<JimCars>
+	<Car>
+		<CarModel></CarModel>
+		<Brand></Brand>
+		<Description></Description>
+		<Cost></Cost>
+		<Make></Make>
+		<Engine></Engine>
+		<Official_0to100KM_time></Official_0to100KM_time>
+		<MaximumPower></MaximumPower>
+		<SafetyRating>&stars;</SafetyRating>
+		<Extras>&Additional_Cost;</Extras>
+		<CouponCode></CouponCode>
+		<Reviews></Reviews>
+		<Picture></Picture>
+		<URL></URL>
+	</Car>
+	<Car>
+		<CarModel></CarModel>
+		<Brand></Brand>
+		<Description></Description>
+		<Cost></Cost>
+		<Make></Make>
+		<Engine></Engine>
+		<Official_0to100KM_time></Official_0to100KM_time>
+		<MaximumPower></MaximumPower>
+		<SafetyRating>&stars;</SafetyRating>
+		<Extras>&Additional_Cost;</Extras>
+		<CouponCode></CouponCode>
+		<Reviews></Reviews>
+		<Picture></Picture>
+		<URL></URL>
+	</Car>
+	<Car>
+		<CarModel></CarModel>
+		<Brand></Brand>
+		<Description></Description>
+		<Cost></Cost>
+		<Make></Make>
+		<Engine></Engine>
+		<Official_0to100KM_time></Official_0to100KM_time>
+		<MaximumPower></MaximumPower>
+		<SafetyRating>&stars;</SafetyRating>
+		<Extras>&Additional_Cost;</Extras>
+		<CouponCode></CouponCode>
+		<Reviews></Reviews>
+		<Picture></Picture>
+		<URL></URL>
+	</Car>
+</JimCars>
